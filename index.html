@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLEVER - Boostrap Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Sec 1 : Navigation -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow my-navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/images/illustration/logo.png"
+            alt=""
+            class="logo-img"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-2">
+              <a
+                class="nav-link active text-secondary px-xl-4"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item pe-2">
+              <a
+                class="nav-link active text-secondary px-xl-4"
+                aria-current="page"
+                href="#"
+                >Pages</a
+              >
+            </li>
+            <li class="nav-item pe-2">
+              <a
+                class="nav-link active text-secondary px-xl-4"
+                aria-current="page"
+                href="#"
+                >Courses</a
+              >
+            </li>
+            <li class="nav-item pe-2">
+              <a
+                class="nav-link active text-secondary px-xl-4"
+                aria-current="page"
+                href="#"
+                >Instructor</a
+              >
+            </li>
+            <li class="nav-item pe-2">
+              <a
+                class="nav-link active text-secondary px-xl-4"
+                aria-current="page"
+                href="#"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item pe-2">
+              <a
+                class="nav-link active text-secondary px-xl-4"
+                aria-current="page"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div class="magnifying-glass">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input
+              class="form-control me-2 ps-5 py-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button type="button" class="btn btn-link text-decoration-none">
+              Register
+            </button>
+            <button type="button" class="btn rounded-1 login-but px-2 px-lg-4">
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sec 2 : call to action -->
+    <section class="sec-two">
+      <div class="container pt-2 pt-md-5 text-center">
+        <h1 class="h1 lets-study-togather fw-bold">Let's Study Together</h1>
+        <button
+          type="button"
+          class="btn btn-primary px-4 py-2 mt-5 small fw-bold get-started-btn"
+        >
+          GET STARTED
+        </button>
+      </div>
+    </section>
+
+    <!-- Sec 3 : Success Stories -->
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <figure class="figure text-center border mx-3 sec-three-figure">
+              <img
+                src="./assets/images/illustration/docs.png"
+                alt=""
+                class="figure-img sec-three-img"
+              />
+              <figcaption class="figure-caption">
+                <h4 class="display-2 text-primary fw-bold year-ss">1912</h4>
+                <p class="fw-semibold cap-ss">Success Stories</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <figure class="figure text-center border mx-3 sec-three-figure">
+              <img
+                src="./assets/images/illustration/star.png"
+                alt=""
+                class="figure-img sec-three-img"
+              />
+              <figcaption class="figure-caption">
+                <h4 class="display-2 text-primary fw-bold year-ss">123</h4>
+                <p class="fw-semibold cap-ss">Dedicated Tutors</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <figure class="figure text-center border mx-3 sec-three-figure">
+              <img
+                src="./assets/images/illustration/events.png"
+                alt=""
+                class="figure-img sec-three-img"
+              />
+              <figcaption class="figure-caption">
+                <h4 class="display-2 text-primary fw-bold year-ss">89</h4>
+                <p class="fw-semibold cap-ss">Scheduled Events</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <figure class="figure text-center border mx-3 sec-three-figure">
+              <img
+                src="./assets/images/illustration/earth.png"
+                alt=""
+                class="figure-img sec-three-img"
+              />
+              <figcaption class="figure-caption">
+                <h4 class="display-2 text-primary fw-bold year-ss">56</h4>
+                <p class="fw-semibold cap-ss">Available Courses</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div>
+          <a href="#top" class="btn btn-primary take-top-btn"
+            ><i class="fa-solid fa-angle-up"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sec 4 : Popular Online Courses -->
+    <section>
+      <div class="container mt-5">
+        <header class="text-center">
+          <h2 class="fw-bold">Popular Online Courses</h2>
+        </header>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 pt-5">
+            <figure class="figure border rounded-3 shadow">
+              <img
+                src="./assets/images/illustration/c1.jpg"
+                alt=""
+                class="figure-img rounded-top-3"
+              />
+              <figcaption class="figure-caption">
+                <h4 class="px-4 fw-bold pt-4 text-dark">English Grammar</h4>
+                <div class="bull px-4 py-2">
+                  <a href="" class="enggr-atag">Sarah Parker</a> &bull;
+                  <a href="" class="enggr-atag">Art &amp; Design</a>
+                </div>
+                <p class="px-4 pb-3 greng-ptag">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  enim nulla, mollis eu metus in, sagittis
+                </p>
+                <div class="d-flex justify-content-between">
+                  <div
+                    class="input-group border rounded-start-2 border-opacity-25"
+                  >
+                    <div class="px-2 border-end">
+                      <span><i class="fa-solid fa-user py-3"></i> 10</span>
+                    </div>
+                    <div class="px-2 border-end">
+                      <span><i class="fa-solid fa-star py-3"></i> 4.5</span>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-primary px-4 rounded-start-0 sec-four-but"
+                  >
+                    Free
+                  </button>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pt-5">
+            <figure class="figure border rounded-3 shadow">
+              <img
+                src="./assets/images/illustration/c2.jpg"
+                alt=""
+                class="figure-img rounded-top-3"
+              />
+              <figcaption class="figure-caption">
+                <h4 class="px-4 fw-bold pt-4 text-dark">Vocabulary</h4>
+                <div class="bull px-4 py-2">
+                  <a href="" class="enggr-atag">Sarah Parker</a> &bull;
+                  <a href="" class="enggr-atag">Art &amp; Design</a>
+                </div>
+                <p class="px-4 pb-3 greng-ptag">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  enim nulla, mollis eu metus in, sagittis
+                </p>
+                <div class="d-flex justify-content-between">
+                  <div
+                    class="input-group border rounded-start-2 border-opacity-25"
+                  >
+                    <div class="px-2 border-end">
+                      <span><i class="fa-solid fa-user py-3"></i> 10</span>
+                    </div>
+                    <div class="px-2 border-end">
+                      <span><i class="fa-solid fa-star py-3"></i> 4.5</span>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-warning px-4 rounded-start-0 sec-four-but"
+                  >
+                    $20
+                  </button>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pt-5">
+            <figure class="figure border rounded-3 shadow">
+              <img
+                src="./assets/images/illustration/c3.jpg"
+                alt=""
+                class="figure-img rounded-top-3"
+              />
+              <figcaption class="figure-caption">
+                <h4 class="px-4 fw-bold pt-4 text-dark">Expository writing</h4>
+                <div class="bull px-4 py-2">
+                  <a href="" class="enggr-atag">Sarah Parker</a> &bull;
+                  <a href="" class="enggr-atag">Art &amp; Design</a>
+                </div>
+                <p class="px-4 pb-3 greng-ptag">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  enim nulla, mollis eu metus in, sagittis
+                </p>
+                <div class="d-flex justify-content-between">
+                  <div
+                    class="input-group border rounded-start-2 border-opacity-25"
+                  >
+                    <div class="px-2 border-end">
+                      <span><i class="fa-solid fa-user py-3"></i> 10</span>
+                    </div>
+                    <div class="px-2 border-end">
+                      <span><i class="fa-solid fa-star py-3"></i> 4.5</span>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-warning px-4 rounded-start-0 sec-four-but"
+                  >
+                    $45
+                  </button>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sec 5 : The Best Tutors in Town -->
+    <section>
+      <div class="container pt-5">
+        <header class="text-center py-5">
+          <h2 class="h1 py-5 fw-bold">The Best Tutors in Town</h2>
+        </header>
+      </div>
+      <div class="container-fluid sec-five">
+        <div class="px-2 py-5 sec-five-parent">
+          <div class="row">
+            <form class="col-12 col-md-6 col-lg-6 mt-5">
+              <div class="bg-light py-5 px-2 text-center pe-lg-5">
+                <h3 class="h3 fw-bold pb-3 courseforfree">Courses For Free</h3>
+                <div class="sec-five-inputdiv input-div-2">
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    class="form-control sec-five-input"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="form-control sec-five-input"
+                  />
+                </div>
+                <div class="sec-five-inputdiv">
+                  <input
+                    type="tel"
+                    placeholder="Phone"
+                    class="form-control sec-five-input"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Site"
+                    class="form-control sec-five-input"
+                  />
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary px-3 fw-semibold mt-5"
+                >
+                  SEND MESSAGE
+                </button>
+              </div>
+            </form>
+            <div class="col-12 col-md-6 col-lg-6 mt-5 ps-lg-5">
+              <h2 class="h3 fw-bold pb-3 pt-md-5 mt-md-3 mt-lg-5 pt-lg-3">
+                Register Now
+              </h2>
+              <p class="text-secondary regnow-para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                fermentum laoreet elit, sit amet tincidunt mauris ultrices
+                vitae. Donec bibendum tortor sed mi faucibus vehicula. Sed erat
+                lorem
+              </p>
+              <div class="mt-5">
+                <div class="row">
+                  <div class="col-3 text-center">
+                    <div class="coundown">
+                      <p class="text-primary fw-bold h1">00</p>
+                      <p class="coundown-para">Days</p>
+                    </div>
+                  </div>
+                  <div class="col-3 text-center">
+                    <div class="coundown">
+                      <p class="text-primary fw-bold h1">00</p>
+                      <p class="coundown-para">Hours</p>
+                    </div>
+                  </div>
+                  <div class="col-3 text-center">
+                    <div class="coundown">
+                      <p class="text-primary fw-bold h1">00</p>
+                      <p class="coundown-para">Minutes</p>
+                    </div>
+                  </div>
+                  <div class="col-3 text-center">
+                    <div class="coundown">
+                      <p class="text-primary fw-bold h1">00</p>
+                      <p class="coundown-para">Seconds</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sec 6 : Upcoming events -->
+    <section>
+      <div class="container">
+        <div class="text-center mt-5">
+          <h2 class="py-5 h1 fw-bold">Upcoming Events</h2>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 pt-4">
+            <figure
+              class="figure sec-six-fig text-center border rounded-bottom-3 shadow"
+            >
+              <img
+                src="./assets/images/illustration/e1.jpg"
+                alt=""
+                class="figure-img sec-six-img"
+              />
+              <p class="aug-26">AUGUST 26</p>
+              <h4 class="networking-day">Networking Day</h4>
+              <figcaption
+                class="figure-caption input-group d-flex justify-content-between ps-2 sec-six-figcaption"
+              >
+                <p class="pt-3 am-9">August 26 @ 9:00 am</p>
+                <a
+                  href=""
+                  class="btn btn-warning sec-six-btn pt-3 text-light fw-semibold"
+                  >$45</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 pt-4">
+            <figure
+              class="figure sec-six-fig text-center border rounded-bottom-3 shadow"
+            >
+              <img
+                src="./assets/images/illustration/e2.jpg"
+                alt=""
+                class="figure-img sec-six-img"
+              />
+              <p class="aug-26">AUGUST 7</p>
+              <h4 class="networking-day">Open Doors Day</h4>
+              <figcaption
+                class="figure-caption input-group d-flex justify-content-between ps-2 sec-six-figcaption"
+              >
+                <p class="pt-3 am-9">August 7 @ 9:00 am</p>
+                <a
+                  href=""
+                  class="btn btn-primary sec-six-btn pt-3 text-light fw-semibold"
+                  >Free</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pt-4">
+            <figure
+              class="figure sec-six-fig text-center border rounded-bottom-3 shadow"
+            >
+              <img
+                src="./assets/images/illustration/e3.jpg"
+                alt=""
+                class="figure-img sec-six-img"
+              />
+              <p class="aug-26">AUGUST 3</p>
+              <h4 class="networking-day">Creative Leadership</h4>
+              <figcaption
+                class="figure-caption input-group d-flex justify-content-between ps-2 sec-six-figcaption"
+              >
+                <p class="pt-3 am-9">August 3 @ 9:00 am</p>
+                <a
+                  href=""
+                  class="btn btn-warning sec-six-btn pt-3 text-light fw-semibold"
+                  >$45</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sec 7 : From Our Blog -->
+    <section>
+      <div class="container py-5 mb-5">
+        <h2 class="py-5 h1 fw-bold text-center">From Our Blog</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6 mb-5">
+            <figure class="figure border rounded-3 shadow">
+              <img
+                src="./assets/images/illustration/1.jpg"
+                alt=""
+                class="figure-img rounded-top-3 sec-seven-img"
+              />
+              <figcaption class="figure-caption">
+                <h4>
+                  <a href="" class="h4 px-4 fw-bold pt-5 text-dark"
+                    >English Grammar</a
+                  >
+                </h4>
+                <div class="bull px-4 py-2">
+                  <a href="" class="enggr-atag">Sarah Parker</a> &bull;
+                  <a href="" class="enggr-atag">Art &amp; Design</a>
+                </div>
+                <p class="px-4 pb-3 greng-ptag">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  enim nulla, mollis eu metus in, sagittis
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <figure class="figure border rounded-3 shadow">
+              <img
+                src="./assets/images/illustration/2.jpg"
+                alt=""
+                class="figure-img rounded-top-3 sec-seven-img"
+              />
+              <figcaption class="figure-caption">
+                <h4>
+                  <a href="" class="h4 px-4 fw-bold pt-5 text-dark"
+                    >English Grammar</a
+                  >
+                </h4>
+                <div class="bull px-4 py-2">
+                  <a href="" class="enggr-atag">Sarah Parker</a> &bull;
+                  <a href="" class="enggr-atag">Art &amp; Design</a>
+                </div>
+                <p class="px-4 pb-3 greng-ptag">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  enim nulla, mollis eu metus in, sagittis
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sec 8 : Footer -->
+    <footer class="container-fluid bg-dark">
+      <div class="container text-center py-4">
+        <img
+          src="./assets/images/illustration/logo2.png"
+          alt=""
+          class="footer-logo py-4"
+        />
+        <div>
+          <a href="" class="copyright"
+            >Copyright &copy;2024 All rights reserved | by Rupali</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

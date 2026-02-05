@@ -1,0 +1,1 @@
+# Local Education web template
